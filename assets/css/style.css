@@ -146,17 +146,39 @@ li {
     
 @media only screen and (max-width: 640px) {
 
+ul {
+    text-align: center;
+}
+
+
 li {
     position: static;
-    padding: 0px;
-    margin-top: 100px;
-    margin-bottom: 14px;
-    display: block;
+    float: none;
+    padding: 30px;
+    font-size: 1.3em;
+    width: 87%;
 }
 
 .logo {
     position: static;
-    
+    margin: 0;
+}
+
+.boxtitle {
+    margin-left: 100px;
+}
+
+.city-image {
+    float: none;
+    padding: 0;
+    margin-top: 100px;
+    margin-left: 220px;
+}
+
+.center-text {
+    margin-top: 200px;
+    padding: 0px 10px;
+
 }
 
 }
