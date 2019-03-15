@@ -151,6 +151,11 @@ input[type=text] {
     text-align: center;
 }
 
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
 .overlay2 {
     position: absolute;
     top: 290px;
@@ -222,27 +227,22 @@ li {
 
 @media only screen and (max-width: 640px) {
 
-input[type=text] {
+    ul {
+        text-align: center;
+    }
     
-    width: 400px;
-}
-
-.logo {
-    position: static;
-    margin-right: -300px;
-}
-
-ul {
-    position: static;
-    text-align: center;
     
-}
-
-li {
-    position: static;
-    margin-right: 90px;
-    margin-top: 80px;
-    margin-bottom: 0px;
-}
+    li {
+        position: static;
+        float: none;
+        padding: 30px;
+        font-size: 1.3em;
+        width: 87%;
+    }
+    
+    .logo {
+        position: static;
+        margin: 0;    
+    }
 
 }

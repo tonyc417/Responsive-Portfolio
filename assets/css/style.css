@@ -109,9 +109,110 @@ p {
     
 }
 
+.row {
+    float: left;
+    background-color: white;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: 210px;
+    margin-right: 180px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column:hover {
+    cursor: pointer;
+}
+
+.column {
+    float: left;
+    width: 12%;
+    margin-top: 80px;
+    margin-left: 215px;
+    margin-right: -10px;
+    padding: 5px 10px;
+}
+
+.text {
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    text-align: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 290px;
+    bottom: 0;
+    left: 435px;
+    right: 0;
+    height: 4%;
+    width: 126px;
+    background-color: #4aaaa5;
+
+}
+
+.overlay2 {
+    position: absolute;
+    top: 290px;
+    bottom: 0;
+    left: 786px;
+    right: 0;
+    height: 4%;
+    width: 126px;
+    background-color: #4aaaa5;
+
+}
+
+.overlay3 {
+    position: absolute;
+    top: 510px;
+    bottom: 0;
+    left: 435px;
+    right: 0;
+    height: 4%;
+    width: 126px;
+    background-color: #4aaaa5;
+
+}
+
+.overlay4 {
+    position: absolute;
+    top: 510px;
+    bottom: 0;
+    left: 786px;
+    right: 0;
+    height: 4%;
+    width: 126px;
+    background-color: #4aaaa5;
+
+}
+
+.overlay5 {
+    position: absolute;
+    top: 720px;
+    bottom: 0;
+    left: 435px;
+    right: 0;
+    height: 4%;
+    width: 126px;
+    background-color: #4aaaa5;
+
+}
+
 .messagebox {
     width: 505px;
     height: 100px;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
 }
 
 input[type=submit] {
@@ -180,6 +281,7 @@ li {
     width: 70%;
 }
 
+
 }
     
 @media only screen and (max-width: 640px) {
@@ -208,27 +310,63 @@ li {
     
 }
 
-.city-image {
-    padding: 0;
-    margin-top: 100px;
-    margin-left: 200px;
-
-}
-
-.center-text {
-    padding-top: 200px;
-    padding-bottom: 0px;
-    margin-top: 200px;
-
-}
-
-p {
-    margin-left: 10px;
-}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 
 input[type=text] {
     
     width: 400px;
+}
+
+.row { 
+    margin: 100px;
+    padding-top: 70px;
+    padding-bottom: 500px;
+}
+
+.column {
+    width: 99%;
+    padding: 10px;
+    margin: 0;
+}
+
+.overlay {
+    top: 450px;
+    left: 211px;
+    bottom: 0;
+    width: 201px;
+}
+
+.overlay2 {
+    top: 670px;
+    left: 211px;
+    bottom: 0;
+    width: 201px;
+}
+
+.overlay3 {
+    top: 900px;
+    left: 211px;
+    bottom: 0;
+    width: 201px;
+}
+
+.overlay4 {
+    top: 1120px;
+    left: 211px;
+    bottom: 0;
+    width: 201px;
+}
+
+.overlay5 {
+    top: 1340px;
+    left: 211px;
+    bottom: 0;
+    width: 201px;
 }
 
 }
