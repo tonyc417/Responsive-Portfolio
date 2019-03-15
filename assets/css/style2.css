@@ -222,3 +222,27 @@ li {
 
 @media only screen and (max-width: 640px) {
 
+input[type=text] {
+    
+    width: 400px;
+}
+
+.logo {
+    position: static;
+    margin-right: -300px;
+}
+
+ul {
+    position: static;
+    text-align: center;
+    
+}
+
+li {
+    position: static;
+    margin-right: 90px;
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+
+}
