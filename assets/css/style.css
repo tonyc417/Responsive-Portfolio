@@ -252,6 +252,68 @@ input[type=text] {
     margin-left: 50px;
 }
 
+.row {
+    float: none;
+    width: 1050px;
+    margin-left: 30px;
+}
+
+.overlay {
+    position: absolute;
+    top: 290px;
+    bottom: 0;
+    left: 255px;
+    right: 0;
+    height: 4%;
+    width: 126px;
+    background-color: #4aaaa5;
+}
+
+.overlay2 {
+    position: absolute;
+    top: 290px;
+    bottom: 0;
+    left: 606px;
+    right: 0;
+    height: 4%;
+    width: 126px;
+    background-color: #4aaaa5;
+}
+
+.overlay3 {
+    position: absolute;
+    top: 500px;
+    bottom: 0;
+    left: 255px;
+    right: 0;
+    height: 4%;
+    width: 126px;
+    background-color: #4aaaa5;
+}
+
+.overlay4 {
+    position: absolute;
+    top: 500px;
+    bottom: 0;
+    left: 606px;
+    right: 0;
+    height: 4%;
+    width: 126px;
+    background-color: #4aaaa5;
+}
+
+.overlay5 {
+    position: absolute;
+    top: 720px;
+    bottom: 0;
+    left: 255px;
+    right: 0;
+    height: 4%;
+    width: 126px;
+    background-color: #4aaaa5;
+
+}
+
 .boxtitle {
     margin-left: 40px;
 }
@@ -315,10 +377,9 @@ li {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-  }
+}
 
-input[type=text] {
-    
+input[type=text] { 
     width: 400px;
 }
 
@@ -332,6 +393,10 @@ input[type=text] {
     width: 99%;
     padding: 10px;
     margin: 0;
+}
+
+.row {
+    width: 408px;
 }
 
 .overlay {
